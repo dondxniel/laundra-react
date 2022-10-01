@@ -1,0 +1,16 @@
+.text-bold {
+	font-weight: var(--text-bold);
+}
+.text-bolder {
+	font-weight: var(--text-bolder);
+}
+.text-normal {
+	font-weight: var(--text-normal);
+}
+.text-faint {
+	font-weight: var(--text-faint);
+}
+.small-heading {
+	font-weight: var(--text-bolder);
+	/* padding: 0 17px; */
+}

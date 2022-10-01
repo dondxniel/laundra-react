@@ -1,0 +1,52 @@
+.dd-button {
+	padding: 8px 45px;
+	color: var(--light);
+	background: var(--primary);
+	border: none;
+	border-radius: var(--border-radius);
+	box-shadow: -5px 5px var(--secondary);
+	text-decoration: none;
+}
+.dd-button:hover {
+	text-decoration: none;
+	color: var(--light);
+}
+.sign-up-type-item {
+	margin: 10px 0;
+	border: 1px solid var(--dark);
+	color: var(--dark);
+	/* padding: 8px 15px; */
+	border-radius: var(--border-radius);
+	cursor: pointer;
+
+	/* Make the text unhighlightable */
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.sign-up-type-item:hover {
+	border-width: 2px;
+}
+.sign-up-type-item-selected {
+	border: none;
+	background-color: var(--primary);
+	color: var(--light);
+	border: 1px solid var(--primary);
+}
+.custom-input {
+	margin: 10px 0;
+	border: 1px solid var(--dark);
+	color: var(--dark);
+	border-radius: var(--border-radius);
+	cursor: pointer;
+}
+.custom-link {
+	text-decoration: none;
+	/* font-weight: var(--text-bolder); */
+	color: var(--primary);
+}
+.custom-link:hover {
+	color: var(--secondary);
+}

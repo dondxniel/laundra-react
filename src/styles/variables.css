@@ -1,0 +1,18 @@
+:root {
+	/* typography */
+	--text-bolder: 600;
+	--text-bold: 400;
+	--text-normal: 300;
+	--text-faint: 100;
+
+	/* colors */
+	--light: #fff;
+	--dark: #555;
+	--primary: #0d64de;
+	--secondary: #fa5248;
+	--light-grey: #efefef;
+	--dark-grey: #dfdfdf;
+
+	/* measurements */
+	--border-radius: 20px;
+}

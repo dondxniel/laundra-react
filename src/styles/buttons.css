@@ -1,0 +1,6 @@
+.normal-primary-button {
+	border: none;
+	background-color: var(--primary);
+	color: var(--light);
+	border-radius: var(--border-radius);
+}

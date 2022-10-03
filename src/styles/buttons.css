@@ -4,3 +4,9 @@
 	color: var(--light);
 	border-radius: var(--border-radius);
 }
+.normal-grey-button {
+	border: none;
+	background-color: var(--dark-grey);
+	color: var(--dark);
+	border-radius: var(--border-radius);
+}

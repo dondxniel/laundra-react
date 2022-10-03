@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { userSignUpTypes } from "../../constants";
 import AuthLayouts from "../layouts/AuthLayouts";
 import { NormalPrimaryButton as Button } from "../simple/Buttons";
-import InputField from "../simple/InputField";
+import { InputField } from "../simple/InputField";
 import Link from "../simple/Link";
 import UserSignUpTypeItem from "../simple/UserSignUpTypeItem";
 

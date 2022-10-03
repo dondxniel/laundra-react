@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import AuthLayouts from "../layouts/AuthLayouts";
 import { NormalPrimaryButton as Button } from "../simple/Buttons";
-import InputField from "../simple/InputField";
+import { InputField } from "../simple/InputField";
 import Link from "../simple/Link";
 
 function SignIn() {

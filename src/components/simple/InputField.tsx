@@ -1,6 +1,6 @@
 import { InputFieldProps } from "../../interfaces";
 
-function InputField({
+export function InputField({
 	type,
 	value,
 	name,
@@ -18,5 +18,14 @@ function InputField({
 		/>
 	);
 }
-
-export default InputField;
+export function DryCleanerSearchField() {
+	return (
+		<div className="p-3 rounded-2xl w-full bg-light-grey">
+			<input
+				type="text"
+				className="w-full bg-transparent text-slate-500 focus:outline-transparent"
+				placeholder="Search Dry Cleaner By Business Name"
+			/>
+		</div>
+	);
+}

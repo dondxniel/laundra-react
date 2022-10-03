@@ -12,5 +12,28 @@
 }
 .small-heading {
 	font-weight: var(--text-bolder);
-	/* padding: 0 17px; */
+}
+.bg-dark-grey {
+	background-color: var(--dark-grey);
+}
+.bg-light-grey {
+	background-color: var(--light-grey);
+}
+.text-dark-grey {
+	color: var(--dark-grey);
+}
+.text-light-grey {
+	color: var(--light-grey);
+}
+.bg-green {
+	background-color: var(--success);
+}
+.text-green {
+	color: var(--success);
+}
+.bg-red {
+	background-color: var(--secondary);
+}
+.text-red {
+	color: var(--secondary);
 }
